@@ -34,6 +34,8 @@
             <x-popups.sign-up />
             <x-popups.log-in />
             <!--Model Popup Section End-->
+
+            <x-layout.flash-message />
         </div>
 
         @include('partials.footer._scripts')

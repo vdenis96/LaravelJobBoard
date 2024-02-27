@@ -7,7 +7,7 @@
                     <div class="logo-header-inner logo-header-one">
                         <a href="index-2.html">
                             <img
-                                src="{{ "assets/images/logo-dark.png" }}"
+                                src="{{ asset("/assets/images/logo-dark.png") }}"
                                 alt="" />
                         </a>
                     </div>

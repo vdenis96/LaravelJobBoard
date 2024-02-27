@@ -1,5 +1,5 @@
 <!-- FOOTER START -->
-<footer class="footer-dark" style="background-image: url({{ "assets/images/f-bg.jpg" }})">
+<footer class="footer-dark" style="background-image: url({{ asset("assets/images/f-bg.jpg") }})">
     <div class="container">
         <!-- NEWS LETTER SECTION START -->
         <div class="ftr-nw-content">
@@ -30,7 +30,7 @@
                 <div class="col-lg-3 col-md-12">
                     <div class="widget widget_about">
                         <div class="logo-footer clearfix">
-                            <a href="index-2.html"><img src="{{ "assets/images/logo-light.png" }}" alt="" /></a>
+                            <a href="index-2.html"><img src="{{ asset("assets/images/logo-light.png") }}" alt="" /></a>
                         </div>
                         <p>
                             Many desktop publishing packages and web

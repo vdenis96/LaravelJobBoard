@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CandidateController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.home.show');
 });
+
+Route::get('/candidate/dashboard', [CandidateController::class, 'viewDashboard']);
+Route::post('/candidate/register', [CandidateController::class, 'store']);
